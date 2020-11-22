@@ -1,0 +1,15 @@
+.fig {
+    width: 350px
+}
+
+.figp {
+   /*  background-color: violet; */
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .fig {
+        width: 96%;
+        flex: 1
+    }
+}
