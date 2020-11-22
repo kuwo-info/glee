@@ -15,12 +15,6 @@
     max-width: 900px;
     box-sizing: border-box;
 }
-.foo {
-  line-height: 2.0;
-}
-.centre{
-  text-align: center;
-}
 
 /* ページタイトルのスタイル */
 h1,h2 {
