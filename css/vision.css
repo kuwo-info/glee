@@ -1,0 +1,35 @@
+#gridcnt2{
+    background-color: mediumorchid;
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 
+    "cp img6area"40%
+    "message img6area"40%
+    "signature img6area"20%
+    /40% 60%
+    ;
+}
+#cp{
+    grid-area: cp;
+}
+#message{
+    grid-area: message;
+}
+#signature{
+    grid-area: signature;
+}
+#img6area{
+    grid-area: img6area;
+}
+.img6{
+    max-width: 80%;
+}
+
+.serviceback{
+    width:60%;
+    margin: 0 auto;
+    background-image: url(sampleimage.png);
+    background-size: cover;
+    height:40vw;
+}

@@ -1,0 +1,58 @@
+*{
+
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.top1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 2rem;
+  }
+
+  .top1imgdiv{
+    /* background-color: lime; */
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 500px;
+    background-image: url("../images/top1.png");
+    background-size: contain;
+    margin:0 auto;
+  }
+
+.serviceimg{
+    display: flex;
+    margin: 0 auto; 
+}
+
+.img2,.img3,.img4{
+    width: 20vw;
+    margin: 20px;
+}
+#gridcnt1{
+    background-color: mediumorchid;
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 
+    "... img5"20%
+    "bluebox img5"60%
+    "bluebox ..."20%
+    /50% 50%
+    ;
+}
+#bluebox{
+    grid-area: bluebox;
+    background-color: mediumblue;
+}
+#img5{
+    grid-area: img5;
+    justify-self: start;
+    align-self: start;
+}
+.img5{
+    max-height: 100%;
+    max-width: 100%;
+}

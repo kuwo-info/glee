@@ -1,0 +1,85 @@
+html {
+    font-size: 100%;
+ }
+
+ * {
+   font-size:100%;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ h1{
+    font-size: 2.0em;
+  }
+
+  header{
+    position: fixed;
+    top: 0; /* 上部から配置の基準位置を決める */
+    left: 0; /* 左から配置の基準位置を決める */
+    width: 100%; /* ヘッダーの横幅を指定する */
+    height: 15%; /* ヘッダーの高さを指定する */
+    color: white;
+    background-color: white;
+    z-index: 30;
+  }
+
+  .headerwp{
+    display: flex;
+    flex-direction: row;
+    max-height: 90%;
+    padding: 1vh;
+  }
+  .logoimg{
+    flex:5;
+  }
+  .logo{
+    max-height: 100%;
+  }
+  .vision,.service,.company,.contact{
+    background-color: pink;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header{
+    width: 100%; /* コンテンツの横幅を指定する */
+    /* overflow: auto; コンテンツの表示を自動に設定（スクロール） */
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h2{
+    margin: 30px 0 30px 0px;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+/* アニメーション関係 */
+#slidewrap {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 10;
+}
+.slideCnt {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  /* こいつら何か調べる */
+}
+.slideinL {
+  background-color: lightpink;
+  transform: translate(-100vw, 0);
+}
+.slideinL.show {
+  transform: translate(0, 0);
+}
