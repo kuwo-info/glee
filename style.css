@@ -112,3 +112,7 @@ body {
     transition: all 0.1s 0.2s;
   }
 
+  footer{
+    text-align: end;
+  }
+
