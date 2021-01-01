@@ -6,7 +6,6 @@ script.setAttribute('type', 'text/javascript')
 script.addEventListener('load', function() {
 
 	// ここにjQueryの記述をする
-    document.head.appendChild(script)
     $(function() {
         $.ajax({
             type: 'GET',
@@ -19,3 +18,4 @@ script.addEventListener('load', function() {
     });
 
 })
+document.head.appendChild(script)
