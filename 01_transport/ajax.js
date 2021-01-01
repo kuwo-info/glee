@@ -9,10 +9,10 @@ script.addEventListener('load', function() {
     $(function() {
         $.ajax({
             type: 'GET',
-            url: 'test.html',
+            url: 'https://beef.center.kobe-u.ac.jp/2020/my/',
             dataType: 'html',
             success: function(data) {
-                console.log($(data).find('#sample').text());
+                console.log($(data).find('.event-list-content').text());
             }
         });
     });
