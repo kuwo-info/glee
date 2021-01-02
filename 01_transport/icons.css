@@ -1,0 +1,21 @@
+/* アイコン */
+a[href$=".pdf"] {
+	padding-left: 2.1em;
+	display: inline-block;
+    background: url("/icons/pdficon.png") no-repeat 3%;
+	background-size: 1.5em 1.5em;
+}
+a[href$=".doc"],
+a[href$=".docx"] {
+	padding-left: 2.1em;
+	display: inline-block;
+	background: url("/icons/wordicon.png") no-repeat 3%;
+	background-size: 1.5em 1.5em;
+}
+a[href$=".ppt"],
+a[href$=".pptx"] {
+	padding-left: 2.1em;
+	display: inline-block;
+	background: url("/icons/ppticon.png") no-repeat 3%;
+	background-size: 1.5em 1.5em;
+}
