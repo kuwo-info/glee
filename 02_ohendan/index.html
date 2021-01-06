@@ -1,0 +1,587 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>応援団担当61to62</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #3c763d;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc {
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+/* アイコン */
+a[href$=".pdf"] {
+	padding-left: 2.1em;
+	/*display: inline-block;*/
+    background: url("https://kuwo-info.github.io/glee/01_transport/icons/pdficon.png") no-repeat 3%;
+	background-size: 1.4em 1.4em;
+}
+a[href$=".doc"],
+a[href$=".docx"] {
+	padding-left: 2.1em;
+	/*display: inline-block;*/
+	background: url("https://kuwo-info.github.io/glee/01_transport//icons/wordicon.png") no-repeat 3%;
+	background-size: 1.4em 1.4em;
+}
+a[href$=".ppt"],
+a[href$=".pptx"] {
+	padding-left: 2.1em;
+	/*display: inline-block;*/
+	background: url("https://kuwo-info.github.io/glee/01_transport/icons/ppticon.png") no-repeat 3%;
+	background-size: 1.4em 1.4em;
+}
+a[href^="https://docs.google.com/spreadsheets"] {
+	padding-left: 2.5em;
+	/*display: inline-block;*/
+	background: url("https://kuwo-info.github.io/glee/01_transport/icons/spreadsheeticon.png") no-repeat 3%;
+	background-size: 2.1em 2.1em;
+}
+a[href^="https://docs.google.com/forms/"]{
+	padding-left: 2.2em;
+	/*display: inline-block;*/
+	background: url("https://kuwo-info.github.io/glee/01_transport/icons/formsicon.png") no-repeat 3%;
+	background-size: 1.5em 1.5em;
+
+
+ :root {--mermaid-font-zoom:1.5em ;} 
+</style>
+</head>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><h1><a name="応援団担当引継ぎ資料" class="md-header-anchor"></a><span>応援団担当引継ぎ資料</span></h1><h5><a name="更新情報" class="md-header-anchor"></a><span>更新情報</span></h5><blockquote><p><span>6/Jan./2021　原案を載せました</span></p></blockquote><h3><a name="前年度からの引継ぎ分" class="md-header-anchor"></a><span>前年度からの引継ぎ分</span></h3><p><span>資料をアップロードしました。</span></p><ul><li><p><span>60代からの引継ぎ文書をすべて掲載しておきます。一部赤字で私が手を入れています。</span></p><ul><li><a href='https://kuwo-info.github.io/glee/01_transport/1_2019_pdf.pdf'><span>pdfファイル</span></a></li><li><a href='https://kuwo-info.github.io/glee/01_transport/1_2019_word.docx'><span>wordファイル</span></a><span>　ダウンロードされます。次回の引継ぎで改変したいときなどは利用してください。</span></li></ul></li></ul><p>&nbsp;</p><h3><a name="年間スケジュール" class="md-header-anchor"></a><span>年間スケジュール</span></h3><p><span>3月　優秀者表彰式</span></p><p><span>4月　入学式，応援団新歓祭</span></p><p><span>6月　三商</span></p><p><span>7月　神京戦</span></p><p><span>8月　野球部三商戦</span></p><p><span>10月　ホームカミングデイ</span></p><p><span>11月　六甲祭</span></p><p><span>その他，野球の春秋シーズン・アメフト春秋シーズン・ボート応援・壮行会などがその都度入ります。</span></p><h3><a name="入学式2020年度は中止" class="md-header-anchor"></a><span>入学式(2020年度は中止)</span></h3><ul><li><span>前日，会場の下見があります（一昨年は応援団担当が参加）。</span></li><li><span>プログラム（演奏曲目など），当日のタイムスケジュール等については応援団・チア・学生支援課と話し合って決定します</span></li><li><span>新入生への冊子配布のお手伝い（大学から毎年頼まれている）があるので演奏メンバーの中から10人ほどが開場後1時間程度参加します。</span></li><li><span>ステージ横の控室で待機，準備するが式が始まると音出しができません（外では可能）。地下に練習できるスペースがあり，本番前にリーダーとチアと合同でリハーサルを行っていました。</span></li><li><span>練習する場合は，会場の手配と大学からの許可が必要です。前もって計画してください。</span></li></ul><h5><a name="各役職との連携内容" class="md-header-anchor"></a><span>各役職との連携内容</span></h5><ul><li><span>会計：交通費の支給依頼（育友会から1人500円支給があります）</span></li><li><span>運搬：必要ならバンの手配（大学から費用は支給されます）</span></li><li><span>一般渉内：バンの入構許可証　あるいは　部室の立ち入り許可等</span></li></ul><p>&nbsp;</p><h3><a name="新歓祭2020年度は中止" class="md-header-anchor"></a><span>新歓祭(2020年度は中止)</span></h3><ul><li><span>新歓祭1日目の午後に30分ほど，吹奏楽部，リーダー，チアとの合同パフォーマンスを行います。</span></li></ul><h3><a name="三商2020年度は中止" class="md-header-anchor"></a><span>三商(2020年度は中止)</span></h3><ul><li><span>一橋大学，大阪市立大学，神戸大学の応援団が，毎年持ち回りで演舞発表を行うイベントです。神戸大学開催の年は，開会式に参加の依頼があるようです。</span></li></ul><h3><a name="ホームカミングデイ2020年度はオンライン開催" class="md-header-anchor"></a><span>ホームカミングデイ(2020年度はオンライン開催)</span></h3><ul><li><span>神戸大学のOBが年に1度集まり，講演会などを行うイベントです。</span></li><li><span>ベルボックス食堂で行われるランチパーティでリーダーとチアの合同パフォーマンスを行います。</span></li><li><span>当日の受付等，運営のお手伝いを毎年依頼されています。毎年8名前後，9:00頃からです。</span></li><li><span>大学から部に参加依頼の連絡が入ります。その後，大学職員やリーダーとの事前ミーティングの機会があり，プログラムや参加人数を決定することになります。</span></li><li><span>2020年度は代替措置としてオンラインでの動画配信という形での開催でした。演奏曲は応援団から依頼されたもの(「学歌」,「栄光は常に我らに」,「宇宙を股に」)を演奏しました。</span></li></ul><h3><a name="六甲祭" class="md-header-anchor"></a><span>六甲祭</span></h3><ul><li><span>2019年度は六甲祭2日目15:10～16:20，18:30～19:00の2回，リーダーとの合同パフォーマンスを行っていました。</span></li><li><span>過去の六甲祭では吹奏楽部のみのステージもあったそうです。定期演奏会の宣伝も可能だと伺っています。</span></li></ul><p>&nbsp;</p><h3><a name="応援活動" class="md-header-anchor"></a><span>応援活動</span></h3><ul><li><p><span>リーダー部の担当者から依頼がくるので，可能な範囲で参加すれば良いと思います。</span></p></li><li><p><span>詳細はメーリングリストを参照してください。いくつか例を載せておきます。</span></p><blockquote><p>&nbsp;</p><p><span>おつかれさまです。応援団担当より、春期の応援活動についてご連絡いたします。</span></p><p><span>以下の日程で応援活動の要請がありましたので参加する予定です。</span></p><p><span>・3/13/金 11:30〜 わかさスタジアム京都</span></p><p><span>・4/5/日 9:15〜 大阪シティ信用金庫スタジアム</span></p><p><span>・4/12/日 12:15〜 大阪シティ信用金庫スタジアム</span></p><p><span>1時間前に現地集合、試合に3時間程度と考えていただければと思います。パートごとに下記の人数を選出いただいて、日程ごとのメンバーが確定したら応援団担当までご連絡ください。多くなるぶんには問題ありません。応援団側にも事情があるようなので、下記人数より足りなくなりそうな場合いったん私に相談してください。</span></p><p><span>パートの代表者は、2/9/日 までに高柳にメンバーの選出結果をご連絡ください。</span></p><p><span>よろしくお願いします。</span></p><p><span>以下、参加してほしい人数-----------</span></p><p><span>3/13/金</span></p><p><span>Tp. 2〜</span></p><p><span>Hr. 1</span></p><p><span>Tb. 1</span></p><p><span>Euph. 1</span></p><p><span>Bass. 1</span></p><p><span>Cl. 1</span></p><p><span>Sax. 1</span></p><p><span>Fl. 1</span></p><p><span>Perc. 1</span></p><p><span>4/5/日と4/12/日</span></p><p><span>Tp. 3〜</span></p><p><span>Hr. 2</span></p><p><span>Tb. 2〜</span></p><p><span>Euph. 1</span></p><p><span>Bass. 2</span></p><p><span>Cl. 2</span></p><p><span>Sax. 3</span></p><p><span>Fl. 3</span></p><p><span>Perc. 1</span></p></blockquote><blockquote><p>&nbsp;</p><p><span>部員の皆様</span></p><p><span>おつかれさまです。</span></p><p><span>先日実施しました応援団関係の各種出席調査について，結果をまとめましたので，ご確認ください。</span></p><p><span>各試合、行事の詳細につきましては別途ご連絡差し上げます。</span></p><p><span>遅刻や欠席の連絡，その他の問い合わせは各日程の引率者(下記)までお願い致します。</span></p><p><span>また提出いただいた出席調査の内容と異なる結果になっている場合は，お手数ですが高柳までご連絡ください。</span></p><p><span>よろしくお願いします。</span></p><p><span>3/13　試合11:30〜 わかさスタジアム京都</span></p><p><span>Tp.　喬，清水，田中</span></p><p><span>Tb.　上田，重村</span></p><p><span>Hr.　高柳</span></p><p><span>Euph.　近藤</span></p><p><span>Bass.　稲田</span></p><p><span>Fl.　土屋</span></p><p><span>Cl.　沼田</span></p><p><span>Sax.　中井</span></p><p><span>Per.　松永</span></p><p><span>（引率：清水）</span></p><p><span>4/1　新歓祭1日目（時間未定）神戸大学鶴甲第1キャンパスグラウンド</span></p><p><span>Tp.　喬，田中，佐久川</span></p><p><span>Tb.　アイマン，上田，高橋</span></p><p><span>Hr.　古庄，高柳</span></p><p><span>Euph.　重村</span></p><p><span>Bass.　稲田，河野</span></p><p><span>Fl.　高橋，本田</span></p><p><span>Cl.　中村</span></p><p><span>Sax.　芝本，中井</span></p><p><span>Per.　松永</span></p><p><span>（引率：清水）</span></p><p><span>4/3　入学式（時間未定）神戸国際展示場</span></p><p><span>Tp.　川村，喬，佐久川，田中</span></p><p><span>Tb.　アイマン，上田，重村</span></p><p><span>Hr.　古庄</span></p><p><span>Euph.　近藤</span></p><p><span>Bass.　稲田，河野</span></p><p><span>WR.　重政</span></p><p><span>Fl.　高橋，村上</span></p><p><span>Cl.　辻</span></p><p><span>Sax.　中井</span></p><p><span>Per.　小阪</span></p><p><span>（引率：清水，高柳）</span></p><p><span>4/3  資料配布</span></p><p><span>川村，上田，佐久川，アイマン，稲田，河野，重政，辻，小阪</span></p><p><span>（引率：松永）</span></p><p><span>4/5　試合9:15〜 大阪シティ信用金庫スタジアム</span></p><p><span>Tp.　川村，喬，車，佐久川</span></p><p><span>Tb.　アイマン，上田，重村，高橋，森下</span></p><p><span>Hr.　芝田，高柳</span></p><p><span>Euph.　近藤</span></p><p><span>Bass.　角谷，川田</span></p><p><span>Fl.　高橋，本田，村上</span></p><p><span>Cl.　辻，中村，</span></p><p><span>Sax.　芝本，田島，中井</span></p><p><span>Per.　佐溝</span></p><p><span>（引率：高柳）</span></p><p><span>4/11 試合17:30〜 大阪シティ信用金庫スタジアム</span></p><p><span>川田，河野，佐久川，重村，田中，辻，中村</span></p><p><span>（引率︰松永）</span></p><p><span>4/12　試合11:30〜 大阪シティ信用金庫スタジアム</span></p><p><span>Tp.　喬，田中，車，佐久川</span></p><p><span>Tb.　上田，高橋，森下</span></p><p><span>Hr.　芝田，古庄</span></p><p><span>Bass.　稲田，河野</span></p><p><span>Fl.　井上，本田，森田</span></p><p><span>Cl.　辻，中村</span></p><p><span>Sax.　上野，服部，福島</span></p><p><span>Per.　小阪</span></p><p><span>（引率：松永）</span></p></blockquote></li><li><p><span>各役職との連携</span></p><ul><li><span>会計：交通費の支給依頼</span></li><li><span>運搬：必要ならバンの手配</span></li><li><span>一般渉内：バンの入構許可証　あるいは　部室の立ち入り許可等</span></li><li><span>管理部総合管理：救急箱の準備依頼</span></li></ul></li><li><p><span>当日の流れ</span></p><ul><li><span>試合開始1時間ほど前：集合（野球応援で第3試合の場合は，スケジュールが押していることが多いので30~45分前集合でも大丈夫だということだそうです）</span></li><li><span>試合開始30~40分前：入場，音出し</span></li><li><span>試合開始15分前：宇宙を股に，エール交換</span></li><li><span>試合終了後：宇宙を股に，エール交換。速やかに片づけ，撤収，解散。</span></li></ul></li><li><p><span>その他</span></p><ul><li><span>王子公園のスタジアムは，スネアドラムなどの太鼓が使用できません。</span></li></ul></li></ul><h3><a name="録音による応援活動" class="md-header-anchor"></a><span>録音による応援活動</span></h3><p><span>今年度は，8/21(金)にほっともっとフィールド神戸で開催が予定されていた神京戦に参加する予定でしたが，新型コロナウイルスの感染が拡大している状況をふまえ，現地には行かず，録音した音源を提供する形で参加しました。以下に概要，注意点などを述べます。</span></p><ul><li><span>会場はフィッシュダンス音楽練習場でしたが，この3月でなくなるそうです。</span></li><li><span>62代からは井上さんが参加されていたので，そのときのことで何かあれば教えてもらってください。</span></li></ul><p>&nbsp;</p></div>
+</body>
+</html>
