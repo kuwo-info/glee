@@ -2,10 +2,11 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>情宣引継ぎ資料</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
 .mac-os-11 { --title-bar-height:28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -66,7 +67,7 @@ div.hr:focus { cursor: none; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
 .md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
@@ -91,6 +92,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -132,18 +134,9 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; vertical-align: initial; }
 a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
-.md-inline-math .MathJax_SVG .noError { display: none !important; }
-.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
-.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
-.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
-.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
@@ -154,14 +147,58 @@ iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
 @media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
 .md-diagram-panel .start-state { fill: var(--node-fill); }
 .md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
-.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
 
 
 :root {
@@ -623,9 +660,9 @@ a[href^="https://docs.google.com/document/"]:before {
 
 
 
-</style>
+</style><title></title>
 </head>
-<body class='typora-export os-windows'>
-<div id='write'  class=''><h1><a name="情報宣伝部-引継ぎ資料" class="md-header-anchor"></a><span>情報宣伝部 引継ぎ資料</span></h1><h5><a name="更新情報" class="md-header-anchor"></a><span>更新情報</span></h5><blockquote><p><span>12/Jan./2021　資料をアップロードしました。</span></p><p><span>13/Jan./2021　後援の部分を作成しました。</span></p><p><span>14/Jan./2021　現場で説明する分を載せました。</span></p><p><span>16/Jan./2021　アカウント情報を載せました。</span></p></blockquote><h3><a name="前年度からの引継ぎ分" class="md-header-anchor"></a><span>前年度からの引継ぎ分</span></h3><ul><li><a href='https://docs.google.com/document/d/1HBzBwa-jT6ewaKl_mwbyaM_dQRZKA0j3vKnmnpeAJpw/edit?usp=sharing'><span>60代からの引継ぎ(一部改変)</span></a><span>　許可されたアカウントのみ閲覧できます。</span></li></ul><h3><a name="各種アカウント情報" class="md-header-anchor"></a><span>各種アカウント情報</span></h3><ul><li><a href='https://docs.google.com/document/d/1nidOznc2IiocR_bUQZMjdkCNKZLyDXpv8zW_na24_pE/edit?usp=sharing'><span>アカウント情報</span></a><span>　許可されたアカウントのみ閲覧できます。</span></li></ul><h3><a name="後援名義の使用許可" class="md-header-anchor"></a><span>後援名義の使用許可</span></h3><p><span>別ページで開きます。</span></p><ul><li><a href='https://kuwo-info.github.io/glee/03_info_advertising/kouen.html'><span>説明に移動する</span></a></li></ul><h3><a name="活動計画" class="md-header-anchor"></a><span>活動計画</span></h3><p><span>まず予算と活動計画を行いました。演奏会に向けた活動計画などは，（中止を予期していない間に計画した）第43回サマーコンサートのものを参考にしてください。スケジュールや予算の例も以下に含みます。</span></p><ul><li><a href='https://docs.google.com/document/d/1s2phVAo4Q7L8XRWj2Zdb-cDBM1WrWDUDcToF6525lS0/edit?usp=sharing'><span>前期オリエンテーション資料</span></a></li></ul><h3><a name="サマーコンサート第43回は中止" class="md-header-anchor"></a><span>サマーコンサート(第43回は中止)</span></h3><p><span>第43回サマーコンサートは，新型コロナウイルスの感染が拡大していた状況に鑑み，「中止」となりました。みなさんが今後サマーコンサートという講演を行われる場合は，第44回になります。（第43回は欠番です。同名のイベントの後援申請ができないので気を付けてください。）</span></p><ul><li><a href='https://docs.google.com/spreadsheets/d/1MT3DYwxZsBQw0hYJn-gLzrov9f0N8Rd0X_rC_yJxWMI/edit?usp=sharing'><span>情宣決算（第43回サマコン）</span></a></li><li><a href='https://kuwo-info.github.io/glee/03_info_advertising/sc43rd/%E3%82%B5%E3%83%9E%E3%82%B3%E3%83%B3%E4%B8%AD%E6%AD%A2%E9%80%A3%E7%B5%A1.pdf'><span>外部公開用 中止広報</span></a></li></ul><h3><a name="幹部決め" class="md-header-anchor"></a><span>幹部決め</span></h3><p><span>次年度幹部決めにあたって原稿提出を要求されました。必要なら改変するなどしてご利用ください。</span></p><ul><li><a href='https://docs.google.com/document/d/18_H2ORRRTEYNSwB4vj_Fs4xn0OaHK8OKHtH6jb5FwL4/edit?usp=sharing'><span>幹部決め提出原稿</span></a></li></ul><h3><a name="定期演奏会一般）" class="md-header-anchor"></a><span>定期演奏会（一般）</span></h3><ul><li><span>前日・当日（掲載予定）</span></li><li><span>挟み込み（掲載予定）</span></li><li><a href='https://docs.google.com/spreadsheets/d/1qfRFRPOT8XU3x2A1rRd1UIKaBltwox4RmMGE4cNr2cw/edit?usp=sharing'><span>情宣決算（第53回定演）</span></a></li></ul><h3><a name="定期演奏会における感染対策主に観客について）" class="md-header-anchor"></a><span>定期演奏会における感染対策（主に観客について）</span></h3><p><span>定期演奏会当日に向けた感染対策は，総務と協力して行いました。主に部員⇔部員の感染対策を総務が，観客⇔観客の感染対策を情宣が担当しましたが，内容は互いに密接に関係しているため，総務部長との連携が必要でした。</span></p><ul><li><p><span>基本方針</span></p><p><span>どうしたらいいか自分で考えるというよりは，幹部の話合いで決まった基本方針があったので，そこに基づいて対策を一つひとつ実行していくという感じでした。以下にその資料を掲載します。</span></p><p><a href='https://kuwo-info.github.io/glee/03_info_advertising/rc53rd/COVID-19/%E5%8A%87%E5%A0%B4%E3%80%81%E9%9F%B3%E6%A5%BD%E5%A0%82%E7%AD%89%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E6%8B%A1%E5%A4%A7%E4%BA%88%E9%98%B2%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3_0525.pdf'><span>劇場、音楽堂等における新型コロナウイルス感染拡大予防ガイドライン</span></a></p><p><a href='https://kuwo-info.github.io/glee/03_info_advertising/rc53rd/COVID-19/%E7%AC%AC53%E5%9B%9E%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A%E5%AE%9F%E6%96%BD%E3%81%AB%E4%BF%82%E3%82%8F%E3%82%8B%E5%AF%BE%E5%BF%9C%E6%A4%9C%E8%A8%BC%E5%8F%8A%E3%81%B3%E6%8F%90%E8%A8%80%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf'><span>第53回定期演奏会実施に係わる対応検証及び提言報告書</span></a></p></li><li><p><span>入場者数の制限</span></p><p><span>例年であれば演奏会にはできるだけ多くのお客様に来ていただきたいということでやっていたのですが，2020年度は，</span><strong><span>神戸大学から演奏会の実施許可を得るためには入場者数の制限が必要でした。</span></strong><span>以下は一般渉内が学生支援課に提出した活動申請ですが，この中に入場者数（150~200人と読み取れる）が示されていますので，これに従って人数調整をしていく必要がありました（ちなみに，自由劇場という団体が開場の定員いっぱいで申請したところ不許可になったりしていましたので，今回のようにホール定員(601名)に対して割合等で制限をかけるのが無難だということだそうです）。</span></p><ul><li><a href='https://drive.google.com/file/d/1DHQE3cUXFPrqcHZgGI6BnlJGLwo57H4t/view?usp=sharing'><span>吹奏楽部　演奏会　活動申請</span></a><span>　許可されたアカウントのみ閲覧できます。</span></li></ul><p><span>そういう事情もあり，2020年度は演奏会の一般公開を行わず，部員が招待した人のみが演奏会を鑑賞するという制度にしました。OBも例外なく招待された方のみ入場頂きました。</span></p><ul><li><a href='https://kuwo-info.github.io/glee/03_info_advertising/rc53rd/COVID-19/%E5%AE%9A%E6%BC%94%E9%9D%9E%E5%85%AC%E9%96%8B%E9%80%A3%E7%B5%A1.pdf'><span>外部公開用 非公開広報</span></a></li></ul><p><span>11月初旬に部員に対して</span><a href='https://forms.gle/vDLMyjKPb6kL25uA8'><span>招待予定者の数を尋ねる調査</span></a><span>を行ったところ，200人をかなり超えていたので，招待人数が多い人には個別に削減をお願いするなどして，200人以下に抑えました。もちろん200人以下なら安全だという保証はどこにもないですが，ここは大学の方針に従った形になります。</span></p></li><li><p><span>電子チケット準備</span></p><p><span>基本方針にもあったように，紙のチケットは廃止して，電子化しました。これは長くなるので別ページで説明します。来年度も使用するようなら，遠慮なくおっしゃってください。</span></p><ul><li><p><a href='#'><span>電子チケット説明ページ</span></a><span> （公開予定）</span></p></li><li><p><span>参考までにデモを示します。</span></p><p><a href='https://kuwo-info.github.io/glee/ueno/xx0g16m8.html'><span>https://kuwo-info.github.io/glee/ueno/xx0g16m8.html</span></a></p></li><li><div style="border:1px solid black;">入場者数，電子チケットについての作業記録は以下に保存しています。<br><b>大量の個人情報を含みますのでくれぐれも取り扱いに注意してください。</b><br><br><a href="https://docs.google.com/spreadsheets/d/1vsb4yaf6V0aJ0WXFic52j_RTrAuXNTW1s8OtZ5YG1Ao/edit?usp=sharing">集客・電子チケット作業記録</a>　許可されたアカウントのみ閲覧できます</div></li></ul></li><li><p><span>客席の使用制限</span></p><ul><li><p><span>次の図に示す通り，前後左右が隣り合わない配置にしています。</span></p><p><a href='https://kuwo-info.github.io/glee/03_info_advertising/rc53rd/COVID-19/%E5%AE%A2%E5%B8%AD%E5%9B%B3_%E3%81%84%E3%81%9F%E3%81%BF%E3%83%9B%E3%83%BC%E3%83%AB.pdf'><span>客席図_いたみホール</span></a></p></li><li><p><span>客席にはこちらの2ページ目にあるような紙を貼りました。ステージ上から見た景色があまりよろしくないなと個人的に思ったので（奏者しか見ないんでどうでもいいんですが）かわいいデザインに変更してもよいと思います。</span></p><p><a href='https://kuwo-info.github.io/glee/03_info_advertising/rc53rd/COVID-19/%E5%AE%A2%E5%B8%AD%E8%B2%BC%E3%82%8A%E4%BB%98%E3%81%91.pdf'><span>客席貼り付け</span></a><span>　2ページ目にあります。印刷のとき気をつけてください。</span></p></li><li><p><span>作業の時間についてはタイムテーブルも参照してください。</span></p><p><a href='#'><span>タイムテーブル</span></a><span>（掲載予定）</span></p></li><li><p><span>今年度使用した紙をはがしたものが部室に一応保存してあります。ゴミみたいな見た目なので捨てられないように注意してください。</span></p></li></ul></li><li><p><span>分散退場</span></p><ul><li><span>退場の動きがわかるアナウンス原稿は企画部長が用意してくれました。引き継がれているはずなので必要なら企画から頂いてください。</span></li><li><span>退場の誘導は当日のお手伝いの方（今年は，応援団の人に頼んだ）にお願いしました。この点については総務に問い合わせてみてください。</span></li><li><span>それでもホワイエやロビーに人は溜まります。ものすごく密なことになっていたのでもっと力を入れてアナウンスしたほうがよかったと反省しています。</span></li></ul></li></ul><h3><a name="承諾書" class="md-header-anchor"></a><span>承諾書</span></h3><ul><li><a href='https://kuwo-info.github.io/glee/01_transport/4_shoudaku_word.docx'><span>承諾書</span></a><span> 　Wordファイルがダウンロードされます。</span></li></ul><p>&nbsp;</p><p>&nbsp;</p></div>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='過年度情報'><span>過年度情報</span></h1><p>&nbsp;</p></div></div>
 </body>
 </html>
