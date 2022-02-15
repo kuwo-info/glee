@@ -30,3 +30,11 @@ https://[ユーザー名]:[パスワード]@github.com/[ユーザー名]/[リポ
 git clone https://github.com/kuwo-info/glee.git
 
 リポジトリのhttpsからとれる
+
+→git initでバージョン管理開始
+
+
+
+## pull
+
+git pull origin master
