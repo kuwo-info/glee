@@ -23,7 +23,7 @@ personal access tokenはsettings→deveropper settings→から．repoにチェ�
 
 https://[ユーザー名]:[パスワード]@github.com/[ユーザー名]/[リポジトリ名].git
 
-
+アクセストークンは2か所で使われると消えてしまう！
 
 ## clone
 
@@ -38,3 +38,4 @@ git clone https://github.com/kuwo-info/glee.git
 ## pull
 
 git pull origin master
+
