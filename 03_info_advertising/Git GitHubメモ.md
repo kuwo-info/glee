@@ -39,3 +39,6 @@ git clone https://github.com/kuwo-info/glee.git
 
 git pull origin master
 
+
+
+やりとりができているか？
