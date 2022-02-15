@@ -42,3 +42,5 @@ git pull origin master
 
 
 やりとりができているか？
+
+OKです．
