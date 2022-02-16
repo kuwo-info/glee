@@ -39,8 +39,6 @@ git clone https://github.com/kuwo-info/glee.git
 
 git pull origin master
 
+毎回ちゃんとpullしてから始めないとpushしたとき怒られる
 
-
-やりとりができているか？
-
-OKです．
+強制pushはgit push -f origin master
