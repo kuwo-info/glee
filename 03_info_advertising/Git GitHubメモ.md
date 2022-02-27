@@ -42,3 +42,9 @@ git pull origin master
 毎回ちゃんとpullしてから始めないとpushしたとき怒られる
 
 強制pushはgit push -f origin master
+
+
+
+https://github.com/kuwo-info/info-advertising.git
+
+https://kuwo-info:アクセストークン@github.com/kuwo-info/info-advertising.git
