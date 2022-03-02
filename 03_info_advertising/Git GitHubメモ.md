@@ -1,6 +1,42 @@
 # Git GitHub 操作
 
-.gitのconfigを編集することで別アカウントからpush origin masterできる
+Gitのインストール
+
+http://git-scm.com/download/win
+
+Visual Studio Codeのインストール
+
+https://code.visualstudio.com/
+
+GitHubにログイン
+
+https://github.com/login
+
+personal access tokenはsettings→deveropper settings→から．repoにチェックを入れてgenerate
+
+
+
+## clone
+
+```
+git clone https://github.com/kuwo-info/info-advertising.git
+```
+
+リポジトリのhttpsからとれる
+
+info-advertisingがあるか確認
+
+隠しフォルダ・拡張子を表示する
+
+.gitあるかどうか確認
+
+```
+cd info-advertising
+```
+
+でディレクトリ（フォルダ）を移動する．
+
+
 
 ```
 [core]
@@ -11,40 +47,19 @@
 	symlinks = false
 	ignorecase = true
 [remote "origin"]
-	url = https://kuwo-info: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@github.com/kuwo-info/glee.git
-	# https://github.com/kuwo-info/glee
+	url = https://kuwo-info:アクセストークン@github.com/kuwo-info/info-advertising.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
+[branch "main"]
 	remote = origin
-	merge = refs/heads/master
+	merge = refs/heads/main
 ```
-
-personal access tokenはsettings→deveropper settings→から．repoにチェックを入れてgenerate
-
-https://[ユーザー名]:[パスワード]@github.com/[ユーザー名]/[リポジトリ名].git
-
-アクセストークンは2か所で使われると消えてしまう！
-
-## clone
-
-git clone https://github.com/kuwo-info/glee.git
-
-リポジトリのhttpsからとれる
-
-→git initでバージョン管理開始
 
 
 
 ## pull
 
-git pull origin master
+git pull origin main
 
 毎回ちゃんとpullしてから始めないとpushしたとき怒られる
 
 強制pushはgit push -f origin master
-
-
-
-https://github.com/kuwo-info/info-advertising.git
-
-https://kuwo-info:アクセストークン@github.com/kuwo-info/info-advertising.git
